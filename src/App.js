@@ -1,25 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './index.css';
+import ColorShower from './components/ColorShower';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1>Colors</h1>
+      <div style={{display: 'flex', flexDirection: 'row'}}>
+        <ColorShower baseColor="blue" />
+        <ColorShower baseColor="purple" />
+        <ColorShower baseColor="orange" />
+        <ColorShower baseColor="yellow" />
+        <ColorShower baseColor="gray" />
+        <ColorShower baseColor="green" />
+      </div>
+    </>
   );
 }
 

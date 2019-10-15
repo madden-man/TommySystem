@@ -1,13 +1,61 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css?family=Bevan|Cairo|Press+Start+2P|Roboto+Slab|Ubuntu&display=swap');
+@import 'styles/normalize.css';
+
+:root {
+
+  /* Colors */
+  --blue-20: rgb(165, 211, 255);
+  --blue-30: rgb(121, 188, 255);
+  --blue-40: rgb(76, 166, 255);
+  --blue-50: #1F90FF;
+  --blue-60: rgb(25, 115, 204);
+  --blue-70: rgb(19, 86, 153);
+  --blue-80: rgb(12, 58, 102);
+  --purple-20: rgb(212, 198, 240);
+  --purple-30: rgb(190, 169, 233);
+  --purple-40: rgb(169, 141, 225);
+  --purple-50: #9370DA;
+  --purple-60: rgb(118, 90, 174);
+  --purple-70: rgb(88, 67, 131);
+  --purple-80: rgb(59, 45, 87);
+  --orange-20: rgb(255, 204, 153);
+  --orange-30: rgb(255, 178, 102);
+  --orange-40: rgb(255, 153, 51);
+  --orange-50: #FF7F00;
+  --orange-60: rgb(204, 102, 0);
+  --orange-70: rgb(153, 76, 0);
+  --orange-80: rgb(102, 51, 0);
+  --yellow-20: rgb(255, 255, 214);
+  --yellow-30: rgb(255, 255, 194);
+  --yellow-40: rgb(255, 255, 173);
+  --yellow-50: #FFFF99;
+  --yellow-60: rgb(204, 204, 122);
+  --yellow-70: rgb(153, 153, 92);
+  --yellow-80: rgb(102, 102, 61);
+  --white: #FFFFFF;
+  --gray-20: rgb(237, 237, 237);
+  --gray-30: rgb(229, 229, 229);
+  --gray-40: rgb(220, 220, 220);
+  --gray-50: #D3D3D3;
+  --gray-60: rgb(169, 169, 169);
+  --gray-70: rgb(127, 127, 127);
+  --gray-80: rgb(84, 84, 84);
+  --green-20: rgb(157, 240, 185);
+  --green-30: rgb(108, 233, 150);
+  --green-40: rgb(59, 225, 115);
+  --green-50: #0ADA50;
+  --green-60: rgb(8, 174, 64);
+  --green-70: rgb(6, 131, 48);
+  --green-80: rgb(4, 87, 32);
+
+  /* Font Families */
+  --ubuntu: 'Ubuntu', sans-serif;
+  --roboto-slab: 'Roboto Slab', serif;
+  --bevan: 'Bevan', cursive;
+  --cairo: 'Cairo', sans-serif;
+  --press-start-2p: 'Press Start 2P', cursive;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+body {
+  font-family: var(--ubuntu);
 }
