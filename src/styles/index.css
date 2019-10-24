@@ -6,15 +6,11 @@
 :root {
 
   /* Colors */
-  --blue-10: color-mod(var(--blue-50) tint(80%));
-  --blue-20: color-mod(var(--blue-50) tint(60%));
-  --blue-30: color-mod(var(--blue-50) tint(40%));
-  --blue-40: color-mod(var(--blue-50) tint(20%));
+  --lighter-blue: #99FFFF;
+  --light-blue: #17F4EE;
   --blue-50: #1F90FF;
-  --blue-60: color-mod(var(--blue-50) shade(20%));
-  --blue-70: color-mod(var(--blue-50) shade(40%));
-  --blue-80: color-mod(var(--blue-50) shade(60%));
-  --blue-90: color-mod(var(--blue-50) shade(80%));
+  --dark-blue: #0000CD;
+  --darker-blue: #00008B;
   --purple-10: color-mod(var(--purple-50) tint(80%));
   --purple-20: color-mod(var(--purple-50) tint(60%));
   --purple-30: color-mod(var(--purple-50) tint(40%));

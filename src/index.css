@@ -6,15 +6,11 @@
 :root {
 
   /* Colors */
-  --blue-10: rgb(210, 233, 255);
-  --blue-20: rgb(165, 211, 255);
-  --blue-30: rgb(121, 188, 255);
-  --blue-40: rgb(76, 166, 255);
+  --lighter-blue: #99FFFF;
+  --light-blue: #17F4EE;
   --blue-50: #1F90FF;
-  --blue-60: rgb(25, 115, 204);
-  --blue-70: rgb(19, 86, 153);
-  --blue-80: rgb(12, 58, 102);
-  --blue-90: rgb(6, 29, 51);
+  --dark-blue: #0000CD;
+  --darker-blue: #00008B;
   --purple-10: rgb(233, 226, 248);
   --purple-20: rgb(212, 198, 240);
   --purple-30: rgb(190, 169, 233);
