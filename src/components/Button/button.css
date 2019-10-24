@@ -1,0 +1,17 @@
+.tom-c-btn {
+  padding: var(--spacing-unit) var(--spacing-unit-x2);
+  appearance: none;
+}
+
+.tom-c-btn--primary {
+  background-color: var(--orange-40);
+  border-radius: 8px;
+  font-size: 20px;
+  border: 1px solid;
+}
+
+.tom-c-btn--secondary {
+  background-color: var(--yellow-40);
+  border-radius: 8px;
+  font-size: 16px;
+}
