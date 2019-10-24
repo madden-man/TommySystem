@@ -1,0 +1,13 @@
+.tom-l-container {
+  max-width: 50rem;
+  margin: auto;
+}
+
+.tom-l-block-border {
+  border: 2px solid var(--blue-80);
+}
+
+.tom-l-rounded-border {
+  border: 2px ridge var(--blue-80);
+  border-radius: var(--spacing-unit);
+}

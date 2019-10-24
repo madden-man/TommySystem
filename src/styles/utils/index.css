@@ -1,0 +1,7 @@
+.margin-top-x2 {
+  margin-top: var(--spacing-unit-x2);
+}
+
+.margin-left-x2 {
+  margin-left: var(--spacing-unit-x2);
+}
